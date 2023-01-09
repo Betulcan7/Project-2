@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(171, 156, 135);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    display: flex;
+    align-content: center;
+}
+
+
