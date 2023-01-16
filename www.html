@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <script>
+      function showLinks(id) {
+          var x = document.getElementById(id);
+          if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }
+      }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showLinks('link1');">Link 1</a>
+            <ul id="link1" style="display: none;">
+                <li><a href="page1.html">Page 1</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+                <li><a href="page3.html">Page 3</a></li>
+                <li><a href="page4.html">Page 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#" onclick="showLinks('link2');">Link 2</a>
+            <ul id="link2" style="display: none;">
+                <li><a href="page5.html">Page 5</a></li>
+                <li><a href="page6.html">Page 6</a></li>
+                <li><a href="page7.html">Page 7</a></li>
+                <li><a href="page8.html">Page 8</a></li>
+            </ul>
+        </li>
+        <li><a href="#" onclick="showLinks('link3');">Link 3</a>
+            <ul id="link3" style="display: none;">
+                <li><a href="page9.html">Page 9</a></li>
+                <li><a href="page10.html">Page 10</a></li>
+                <li><a href="page11.html">Page 11</a></li>
+                <li><a href="page12.html">Page 12</a></li>
+            </ul>
+        </li>
+        <li><a href="#" onclick="showLinks('link4');">Link 4</a>
+            <ul id="link4" style="display: none;">
+                <li><a href="page13.html">Page 13</a></li>
+                <li><a href="page14.html">Page 14</a></li>
+                <li><a href="page15.html">Page 15</a></li>
+                <li><a href="page16.html">Page 16</a></li>
+            </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Project 2 Website</h1>
+  <p>homepage.</p>
+</body>
+</html>
