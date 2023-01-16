@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(7, 7, 69);
+    height: 70px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.personalia, .contact, .talen, .hobbys{
+    margin-left: 15rem;
+    width: 300px;
+}
+
+.opleidingen, .werkervaring, .skills{
+    margin-right: 15rem;
+    width: 550px;
+}
+
+h2{
+    background-color: rgb(7, 7, 69);
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+
+p{
+    background-color: whitesmoke;
+    margin-top: 0.5rem;
+}
+
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.div4{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.talen p i{
+    font-size: 10px;
+    margin-inline: 5px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
