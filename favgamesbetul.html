@@ -5,13 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games</title>
+
+    <script>
+        function showLinks(id) {
+                 var x = document.getElementById(id);
+                 if (x.style.display === "none") {
+                     x.style.display = "block";
+                 } else {
+                     x.style.display = "none";
+                 }
+             }
+         </script>
+
     <link rel="stylesheet" href="favgamesbetul.css">
 </head>
 <body>
 
-    <nav>
-        <h1>Games</h1>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+
+        <li><a href="#" onclick="showLinks('link1');">Yantley</a>
+            <ul id="link1" style="display: none;">
+                <li><a href="page1.html">Game</a></li>
+                <li><a href="page2.html">Uitleg</a></li>
+                <li><a href="page3.html">Portfolio</a></li>
+                <li><a href="page4.html">Favorite Game</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" onclick="showLinks('link2');">Emily</a>
+            <ul id="link2" style="display: none;">
+                <li><a href="page5.html">Game</a></li>
+                <li><a href="page6.html">Uitleg</a></li>
+                <li><a href="page7.html">Porfolio</a></li>
+                <li><a href="page8.html">Favorite Game</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="#" onclick="showLinks('link3');">Betul</a>
+            <ul id="link3" style="display: none;">
+                <li><a href="page9.html">Game</a></li>
+                <li><a href="page10.html">Uitleg</a></li>
+                <li><a href="http://127.0.0.1:5500/portfoliobetul.html">Porfolio</a></li>
+                <li><a href="http://127.0.0.1:5500/favgamesbetul.html">Favorite Game</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="#" onclick="showLinks('link4');">Tarik</a>
+            <ul id="link4" style="display: none;">
+                <li><a href="page13.html">Game</a></li>
+                <li><a href="page14.html">Uitleg</a></li>
+                <li><a href="page15.html">Porfolio</a></li>
+                <li><a href="page16.html">Favorite Game</a></li>
+            </ul>
+        </li>
+    </header>    
+
+
     
     <main>
         <div>
@@ -95,5 +146,7 @@
             </ul>
         </div>
     </main>
+
+    
 </body>
 </html>
