@@ -3,37 +3,88 @@
     margin: 0;
 }
 
+header {
+    background-color: #232323;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
 
-.game{
-    background-color: whitesmoke;
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(253, 253, 253);
+    color: #232323;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav ul li ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li ul li {
+    margin: 5px 0;
+}
+
+
+.game{   
+    background-image: url(/imgbetul/backgroundspace.jpg);
     width: 100%;
     height: 400px;
     position: relative;
     overflow: hidden;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
-    background-color: gray;
+    background-color: black;
+}
+
+#punten{
+    text-align: center;
+    color: white;
 }
 
 
-.blokje1{
-    background-color: darkblue;
-    height: 50px;
-    width: 50px;
+#blokje1{
+    background-image: url(/imgbetul/astronaut.png);
+    background-size: cover;
+    height: 80px;
+    width: 39px;
     position: absolute;
     bottom: 0;
 }
 .blokje1-animatie{
-    animation: blokje1 0.5s linear;
+    animation: blokje1 0.5s linear;     /* Animatie toevoegen aan de karakter */
 }
 
 
-.blokje2{
-    background-color: darkgreen;
-    width: 30px;
-    height: 30px;
+#blokje2{
+    background-image: url(/imgbetul/rock.png);
+    background-size: cover;
+    width: 80px;
+    height: 46px;
     position: absolute;
     bottom: 0;
     left: 1000px;
@@ -42,10 +93,11 @@ body{
     animation: blokje2 1.5s linear infinite;        /* Toevoegen animatie. */
 }
 
-.blokje3{
-    background-color: darkgreen;
-    width: 30px;
-    height: 30px;
+#blokje3{
+    background-image: url(/imgbetul/rock.png);
+    background-size: cover;
+    width: 80px;
+    height: 46px;
     position: absolute;
     bottom: 0;
     left: 1500px;
