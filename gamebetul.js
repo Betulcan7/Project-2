@@ -10,7 +10,7 @@ function spring(){
         blokje2.classList.add("blokje2-animatie");
     }
 
-    if(blokje3.classList!="blokje3-animatie")           // Als je klikt op de muis wordt de animatie van de groene blokjes toegevoegt.
+    if(blokje3.classList!="blokje3-animatie")           // Als je klikt op de muis wordt de animatie van de stenen toegevoegt.
     {
         blokje3.classList.add("blokje3-animatie");
     }
