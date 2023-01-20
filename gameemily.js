@@ -24,7 +24,7 @@ var Score2 = 0;
 var aantalspr = 80;
 
 
-
+// random generator om de kleir van de kleine blokjes te veranderen na refresh
 function randomGenerator() {
   const lHex = '0123456789ABCDEF';
   var kleur ="#";
@@ -177,7 +177,7 @@ function botsing() {
 
   }
 
-
+// score van blokjes bijhouden en game eindigen
   if ((Score1+Score2)== aantalspr) {
     alert("GAME OVER!");
     Score1=0;
