@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+
+    <script>
+        function showLinks(id) {
+                 var x = document.getElementById(id);
+                 if (x.style.display === "none") {
+                     x.style.display = "block";
+                 } else {
+                     x.style.display = "none";
+                 }
+             }
+         </script>
+
     <script src="https://kit.fontawesome.com/f4d9651fac.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="portfoliobetul.css">
 </head>
 <body>
-    
 
-    <nav>
-        <h1>Portfolio</h1>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+
+        <li><a href="#" onclick="showLinks('link1');">Yantley</a>
+            <ul id="link1" style="display: none;">
+                <li><a href="page1.html">Game</a></li>
+                <li><a href="page2.html">Uitleg</a></li>
+                <li><a href="page3.html">Portfolio</a></li>
+                <li><a href="page4.html">Favorite Game</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" onclick="showLinks('link2');">Emily</a>
+            <ul id="link2" style="display: none;">
+                <li><a href="page5.html">Game</a></li>
+                <li><a href="page6.html">Uitleg</a></li>
+                <li><a href="page7.html">Porfolio</a></li>
+                <li><a href="page8.html">Favorite Game</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="#" onclick="showLinks('link3');">Betul</a>
+            <ul id="link3" style="display: none;">
+                <li><a href="page9.html">Game</a></li>
+                <li><a href="page10.html">Uitleg</a></li>
+                <li><a href="http://127.0.0.1:5500/portfoliobetul.html">Porfolio</a></li>
+                <li><a href="http://127.0.0.1:5500/favgamesbetul.html">Favorite Game</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="#" onclick="showLinks('link4');">Tarik</a>
+            <ul id="link4" style="display: none;">
+                <li><a href="page13.html">Game</a></li>
+                <li><a href="page14.html">Uitleg</a></li>
+                <li><a href="page15.html">Porfolio</a></li>
+                <li><a href="page16.html">Favorite Game</a></li>
+            </ul>
+        </li>
+    </header>    
+
+
 
 
     <div class="div1">
@@ -25,8 +75,8 @@
 
         <div class="opleidingen">
             <h2>OPLEIDINGEN</h2>
-            <p>2021-2022 Apothekersassistente &emsp; &emsp; Albeda College</p>
-            <p>2022 Tot op heden &emsp; &emsp; Software Developer &emsp; &emsp; Tecniek College Rotterdam</p>
+            <p>2021-2022 &emsp; &emsp; &emsp; &emsp; &ensp; Apothekersassistente &emsp; Albeda College</p>
+            <p>2022 Tot op heden &emsp; &emsp; Software Developer &emsp; Tecniek College Rotterdam</p>
         </div>
 
     </div>
@@ -77,10 +127,9 @@
             <p>Gamen</p>
             <p>Uitgaan</p>
         </div>
-
     </div>
 
 
-
+    <script src="portfoliobetul.js"></script>
 </body>
 </html>
